@@ -34,13 +34,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espressowifi/proprietary/lib/libffmpeg.so:system/lib/libffmpeg.so \
     vendor/samsung/espressowifi/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/samsung/espressowifi/proprietary/lib/libion.so:system/lib/libion.so \
-    vendor/samsung/espressowifi/proprietary/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so:system/libOMX.TI.DUCATI1.MISC.SAMPLE.so \
+    vendor/samsung/espressowifi/proprietary/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so:system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so \
     vendor/samsung/espressowifi/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so:system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so \
     vendor/samsung/espressowifi/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so:system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so \
     vendor/samsung/espressowifi/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.so:system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.so \
     vendor/samsung/espressowifi/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so:system/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so \
     vendor/samsung/espressowifi/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so:system/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so \
-    vendor/samsung/espressowifi/proprietary/lib/libOMX_Core.so:system/lib/libOMXCore.so \
+    vendor/samsung/espressowifi/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
     vendor/samsung/espressowifi/proprietary/lib/libOpenMAXAL.so:system/lib/libOpenMAXAL.so \
     vendor/samsung/espressowifi/proprietary/lib/libPanoraMax3.so:system/lib/libPanoraMax3.so \
     vendor/samsung/espressowifi/proprietary/lib/libsAMRNB.so:system/lib/libsAMRNB.so \
@@ -48,12 +48,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espressowifi/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
     vendor/samsung/espressowifi/proprietary/lib/libsomxaace.so:system/lib/libsomxaace.so \
     vendor/samsung/espressowifi/proprietary/lib/libsomxac3d.so:system/lib/libsomxac3d.so \
-    vendor/samsung/espressowifi/proprietary/lib/libsomxamrd.so:system/lib/libomxamrd.so \
+    vendor/samsung/espressowifi/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
     vendor/samsung/espressowifi/proprietary/lib/libsomxamre.so:system/lib/libsomxamre.so \
     vendor/samsung/espressowifi/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
     vendor/samsung/espressowifi/proprietary/lib/libsomxcore.so:system/lib/libsomxcore.so \
     vendor/samsung/espressowifi/proprietary/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
-    vendor/samsung/espressowifi/proprietary/lib/libsomxmp3d.so:system/lib/libomxmp3d.so \
+    vendor/samsung/espressowifi/proprietary/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
     vendor/samsung/espressowifi/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
     vendor/samsung/espressowifi/proprietary/lib/libsomxrad.so:system/lib/libsomxrad.so \
     vendor/samsung/espressowifi/proprietary/lib/libsomxrvd.so:system/lib/libsomxrvd.so \
@@ -61,19 +61,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espressowifi/proprietary/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
     vendor/samsung/espressowifi/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
     vendor/samsung/espressowifi/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
+    vendor/samsung/espressowifi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefright_amrnb_common.so:system/lib/libstagefright_amrnb_common.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefright_avc_common.so:system/lib/libstagefright_avc_common.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefright_enc_common.so:system/lib/libstagefright_enc_common.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefright_foundation.so:system/lib/libstagefright_foundation.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefright_froyo.so:system/lib/libstagefright_froyo.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefright_honeycomb.so:system/lib/libstagefright_honeycomb.so \
-    vendor/samsung/espressowifi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefright_soft_aacdec.so:system/lib/libstagefright_soft_aacdec.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefright_soft_amrdec.so:system/lib/libstagefright_soft_amrdec.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefright_soft_g711dec.so:system/lib/libstagefright_soft_g711dec.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefright_soft_h264dec.so:system/lib/libstagefright_soft_h264dec.so \
+    vendor/samsung/espressowifi/proprietary/lib/libstagefright_soft_mp3dec.so:system/lib/libstagefright_soft_mp3dec.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefright_soft_mpeg4dec.so:system/lib/libstagefright_soft_mpeg4dec.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefright_soft_vorbisdec.so:system/lib/libstagefright_soft_vorbisdec.so \
     vendor/samsung/espressowifi/proprietary/lib/libstagefright_soft_vpxdec.so:system/lib/libstagefright_soft_vpxdec.so \
@@ -96,4 +97,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espressowifi/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
     vendor/samsung/espressowifi/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
     vendor/samsung/espressowifi/proprietary/vendor/lib/hw/gralloc.omap4.so:system/vendor/lib/hw/gralloc.omap4.so \
-    vendor/samsung/espressowifi/proprietary/vendor/lib/hw/hwcomposer.omap4.so:system/lib/hw/hwcomposer.omap4.so
+    vendor/samsung/espressowifi/proprietary/vendor/lib/hw/hwcomposer.omap4.so:system/vendor/lib/hw/hwcomposer.omap4.so
